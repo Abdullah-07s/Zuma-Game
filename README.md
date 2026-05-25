@@ -73,7 +73,7 @@ zuma-assembly/
 3. **Create a MASM project in Visual Studio:**
    - File → New → Project → **Empty Project** (C++)
    - Right-click project → Build Dependencies → Build Customizations → tick **masm**
-   - Add `src/zuma.asm` to Source Files
+   - Add `zuma.asm` to Source Files
    - Project Properties → Linker → Input → Additional Dependencies → add `Irvine32.lib`
    - Set to **32-bit** (x86) platform
 
