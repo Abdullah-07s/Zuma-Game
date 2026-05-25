@@ -39,10 +39,8 @@ A playable Zuma-inspired arcade game built entirely in **x86 Assembly language**
 
 ```
 zuma-assembly/
-├── src/
-│   ├── zuma.asm          # Main game — player, fireball, arena, HUD
-│   └── skeletoncode.asm  # Original instructor skeleton (reference)
-├── screenshots/          # Gameplay screenshots (add your own)
+├── zuma.asm          # Main game — player, fireball, arena, HUD
+├── skeletoncode.asm  # Original instructor skeleton (reference)
 ├── Irvine32.lib          # Irvine32 static library  ← add manually
 ├── Irvine32.inc          # Irvine32 include file    ← add manually
 ├── macros.inc            # mWrite macro             ← add manually
@@ -70,7 +68,7 @@ zuma-assembly/
 
 2. **Install Irvine32:**
    - Follow the [Irvine32 VS2019 guide](http://asmirvine.com/gettingStartedVS2019/index.htm)
-   - Copy `Irvine32.inc`, `Irvine32.lib`, and `macros.inc` into the `src/` folder
+   - Copy `Irvine32.inc`, `Irvine32.lib`, and `macros.inc` into the project root folder
 
 3. **Create a MASM project in Visual Studio:**
    - File → New → Project → **Empty Project** (C++)
