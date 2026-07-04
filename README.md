@@ -118,15 +118,3 @@ Direction vectors for all 8 diagonals are stored as signed bytes (`xDir`, `yDir`
 `DrawWall` clears the screen, then renders Score (blue), Lives (red), Level number, and the 25-row arena by iterating over the `walls` string array with a nested counter loop.
 
 ---
-
-## 🎓 Course Info
-
-> **Course:** Computer Organization & Assembly Language (EE-2003)
-> **University:** FAST University NUCES, Islamabad
-> **Semester:** Fall 2024 (Semester 5)
-
----
-
-## 📄 License
-
-Educational use only.
