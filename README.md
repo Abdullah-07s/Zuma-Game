@@ -2,8 +2,6 @@
 
 A playable Zuma-inspired arcade game built entirely in **x86 Assembly language** using the **Irvine32 library** and the **MASM assembler**. The player controls a directional cannon that rotates in 8 directions and shoots marbles across the arena.
 
-> Built as the COAL (Computer Organization & Assembly Language) semester project at FAST University NUCES, Fall 2024.
-
 ---
 
 ## 🕹️ Controls
